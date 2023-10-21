@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -122,3 +123,24 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+JAZZMIN_SETTINGS = {
+    "site_title": "Shipper.com",
+
+    "site_header": "Shipper.com",
+
+    "site_brand": "Shipper.com",
+
+    "site_logo": "assets/logo/logosss.png",
+
+    "site_logo_classes": "img-circle",
+
+    "site_icon":"assets/logo/logo.png",
+
+    "welcome_sign":"Wellcome to admin",
+
+    "copyright": "Tasin Ahmed Ehsan",
+
+
+}
